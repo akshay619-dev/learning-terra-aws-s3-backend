@@ -37,19 +37,11 @@ Once that is done, open a new cmd prompt and run
      # Verify if we are able list S3 buckets
     $ aws s3 ls
 ```   
-  
-
-
-
-Input the user you want to use to build the resources;
-Input the access key for that user;
-The default region you want the resources built in;
-The output format you want.
 
 -----
 Do not use the root user of your account for this action. Use an IAM user that has just enough permissions to do what you need. It is a best practice.
 
-### Configuration
+### SETUP
 
 1. Clone this repository to your local machine.
 
